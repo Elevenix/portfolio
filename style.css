@@ -1,0 +1,28 @@
+h1{
+    color:rgb(0, 157, 248);
+    font-size: 80px;
+}
+
+body{
+    font-size: 20px;
+}
+
+#barTop{
+    padding: 2em;
+}
+
+#main{
+    margin-top: 10em;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#presentation{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#presentation img{
+    max-width: 25%;
+    border-radius: 15px;
+}
