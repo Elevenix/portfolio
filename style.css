@@ -8,6 +8,10 @@ h1{
     font-size: 80px;
 }
 
+h2{
+    color:rgb(0, 157, 248);
+}
+
 body{
     font-size: 20px;
 }
@@ -18,6 +22,7 @@ body{
 
 #main{
     margin-top: 10em;
+    margin-bottom: 10em;
     width: 80%;
     margin-left: 10%;
 }
@@ -29,14 +34,9 @@ body{
     transition-duration: 0.5s,0.5s;
 }
 
-#presentation > img:hover{
-    transform: scale(1.05);
-}
-
 .bloc{
     display: flex;
-    margin-top: 2%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     border-radius: 15px;
     background-color: var(--bg-bloc);
     
