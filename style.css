@@ -119,6 +119,22 @@ i:hover{
     rotate: 360deg;
 }
 
+#sommaire a{
+    color: white;
+    text-decoration: none;
+}
+
+#sommaire li{
+    font-size: 25px;
+    padding-top: 20px;
+    transition: transform 0.2s, color 0.2s;
+}
+
+#sommaire li:hover, #sommaire a:hover{
+    transform: scale(1.1);
+    color:var(--blue-base)
+}
+
 @media (max-width: 992px){
 
     body{
