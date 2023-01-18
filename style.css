@@ -1,15 +1,22 @@
 :root{
     --main-bg-color:rgb(24,24,24); 
     --bg-bloc:rgb(33,37,41);
+    --blue-base: rgb(0, 157, 248);
+    --blue-hover:rgb(139, 212, 255);
 }
 
 h1{
-    color:rgb(0, 157, 248);
+    color:var(--blue-base);
     font-size: 80px;
+    transition: color 1s;
+}
+
+h1:hover{
+    color: var(--blue-hover);
 }
 
 h2{
-    color:rgb(0, 157, 248);
+    color:var(--blue-base);
 }
 
 body{
@@ -61,14 +68,14 @@ body{
 
 .project{
     background-color: var(--bg-bloc);
-    color: white;
+    color: rgba(255, 255, 255, 0);
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: flex-end;
     border-radius: 15px;
     text-decoration: none;
-    transition: transform 0.2s;
+    transition: opacity 2s, transform 0.2s;
     margin-bottom: 3%;
 }
 .project img{
@@ -77,8 +84,39 @@ body{
     height: 250px;
 }
 
-.project:hover{
+.project>.hide{
+    font-size: 16px;
+    position: absolute;
+    height: 240px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    transition: color 0.2s;
+}
+
+.project> p{
+    color: rgba(255, 255, 255, 1);
+}
+
+.project:hover {
     transform: scale(1.05);
+    color: rgba(255, 255, 255, 1.5);
+}
+
+.project>img{
+    transition: opacity 0.2s;
+}
+
+.project:hover img{
+    opacity: 10%;
+}
+
+i:hover{
+    transition: rotate 2s;
+    rotate: 360deg;
 }
 
 @media (max-width: 992px){
