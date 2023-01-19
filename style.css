@@ -21,14 +21,23 @@ h2{
 
 body{
     font-size: 20px;
+    color: white;
+    background-color: var(--main-bg-color);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 #barTop{
-    padding: 2em;
+    background-color: var(--bg-bloc);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 15%;
+    width: 100%;
+    position: fixed;
 }
 
 #main{
-    margin-top: 10em;
+    padding-top: 10em;
     margin-bottom: 10em;
     width: 80%;
     margin-left: 10%;
@@ -39,25 +48,31 @@ a{
     text-decoration: none;
 }
 
-#barTop a{
+.button-bar{
+    min-width: 10em;
+    padding: 1em;
+    background: none;
     border: 2px solid;
+    color: white;
     border-color: white;
     border-radius: 90px;
-    padding: 20px;
-    width: 50px;
     transition: background-color 0.2s, border-color 0.2s, color 0.2s;
 }
 
-#barTop a:hover{
+.button-bar:hover{
     color: var(--main-bg-color);
     border-color: var(--blue-base);
     background-color: var(--blue-base);
 }
 
+#presentation h1{
+    margin: 0;
+    margin-bottom: 20px;
+}
+
 #presentation > img{
-    max-width: 25%;
+    max-width: 15em;
     border-radius: 15px;
-    transition-duration: 0.5s,0.5s;
 }
 
 .bloc{
@@ -71,8 +86,6 @@ a{
 .bloc>*{
     margin: 20px;
 }
-
-.bg-color { background-color: var(--main-bg-color) }
 
 .suppr-tel{
     display: none;
@@ -164,11 +177,17 @@ i:hover{
         display: none;
     }
 
+    #presentation{
+        display: flex;
+    }
+
     #presentation>img{
         display: none;
     }
 
     .suppr-tel{
         display: block;
+        width: 100%;
+        border-radius: 15px;
     }
 }
