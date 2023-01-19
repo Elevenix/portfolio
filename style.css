@@ -34,6 +34,25 @@ body{
     margin-left: 10%;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#barTop a{
+    border: 2px solid;
+    border-color: white;
+    border-radius: 90px;
+    padding: 20px;
+    width: 50px;
+    transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+}
+
+#barTop a:hover{
+    color: var(--main-bg-color);
+    border-color: var(--blue-base);
+    background-color: var(--blue-base);
+}
 
 #presentation > img{
     max-width: 25%;
@@ -117,11 +136,6 @@ body{
 i:hover{
     transition: rotate 2s;
     rotate: 360deg;
-}
-
-#sommaire a{
-    color: white;
-    text-decoration: none;
 }
 
 #sommaire li{
