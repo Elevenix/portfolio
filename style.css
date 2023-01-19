@@ -119,7 +119,7 @@ button:hover{
 
 .bloc{
     display: flex;
-    margin-bottom: 3%;
+    margin-top: 30px;
     border-radius: 15px;
     background-color: var(--bg-bloc);
     
@@ -182,6 +182,26 @@ button:hover{
 
 .project:hover img{
     opacity: 10%;
+}
+
+.genres{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.genres p{
+    text-align: center;
+    margin-right: 10px;
+    padding: 10px;
+    border: solid 2px var(--blue-base);
+    color: var(--blue-base);
+    border-radius: 30px;
+}
+
+.genres p:hover{
+    color: var(--blue-hover);
+    border-color: var(--blue-hover);
 }
 
 i:hover{
