@@ -5,6 +5,7 @@
     --blue-hover:rgb(139, 212, 255);
 }
 
+
 h1{
     color:var(--blue-base);
     font-size: 80px;
@@ -110,10 +111,6 @@ button:hover{
     margin: 20px;
 }
 
-.suppr-tel{
-    display: none;
-}
-
 .all-p{
     display: flex;
     flex-wrap: wrap;
@@ -185,6 +182,10 @@ i:hover{
     color:var(--blue-base)
 }
 
+.suppr-tel{
+    display: none;
+}
+
 @media (max-width: 992px){
 
     body{
@@ -194,10 +195,6 @@ i:hover{
     h1{
         color:rgb(0, 157, 248);
         font-size: 50px;
-    }
-
-    #presentation{
-        display: none;
     }
 
     #presentation{
@@ -213,4 +210,75 @@ i:hover{
         width: 100%;
         border-radius: 15px;
     }
+
+    .suppr-ordi{
+        display: none;
+    }
+
+    #button-bar{
+        width: 100%;
+    }
+
+    /* Burger*/
+    
+    #wrap {
+        margin: 0;
+        display: flex;
+        justify-content: flex-end;
+        transition: background-color 0.5s;
+        z-index: 2;
+    }
+    
+    #wrap:not(:target) {
+        position: fixed;
+        width: 100%;
+    }
+    
+    #wrap:target {
+        position: fixed;
+        background-color:var(--bg-bloc);
+        width: 100%;
+    }
+
+    .b{
+        padding: 20px;
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        z-index: 4;
+    }
+
+    .b>*{
+        padding: 10px;
+    }
+
+    #wrap:not(:target)>.b {
+        display: none;
+    }
+
+    #wrap>a{
+        z-index: 5;
+    }
+    
+    #open,
+    #close {
+        height: 44px;
+        text-align: right;
+        display: block;
+        
+    }
+    
+    #wrap:target #open,
+    #wrap:not(:target) #close {
+        display: none;
+    }
+    
+    #wrap:target #open {
+        display: none;
+    }
+    /*Fin Burger*/
+    
 }
