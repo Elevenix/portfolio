@@ -21,6 +21,11 @@ h1:hover{
     color: var(--blue-hover);
 }
 
+i:hover{    
+    transition: rotate 2s;
+    rotate: 360deg;
+}
+
 h2{
     color:var(--blue-base);
 }
@@ -184,6 +189,16 @@ button:hover{
     opacity: 10%;
 }
 
+.project i{
+    transition: transform 0.2s;
+    color: gold;
+}
+
+.project i:hover{
+    transform: scale(1.5);
+    rotate: 0deg;
+}
+
 .genres{
     display: flex;
     flex-direction: row;
@@ -202,11 +217,6 @@ button:hover{
 .genres p:hover{
     color: var(--blue-hover);
     border-color: var(--blue-hover);
-}
-
-i:hover{
-    transition: rotate 2s;
-    rotate: 360deg;
 }
 
 #sommaire li{
