@@ -1,0 +1,170 @@
+{
+    "GenreVideoGames":["Unity3D","C#","Krita","Blender"],
+    "VideoGames":[
+        {
+            "name": "Âme Bleue",
+            "medal":false,
+            "link": "https://unimolix.itch.io/ame-bleue",
+            "image": "img/projets/ame_bleue.png",
+            "short": "Première grosse Game Jam (7000 participants).",
+            "description": ["Game Jam Lvl99","Thème : A Deep Breath"],
+            "date": "13/02/2023"
+        },
+        {
+            "name": "Fall Colors",
+            "medal":false,
+            "link": "https://nekohino.itch.io/fall-colors",
+            "image": "img/projets/fall_colors.png",
+            "short": "Développement d'un jeu en solo, Jeu de vélo.",
+            "description": ["Réalisé en 2 semaines","Test de petit jeu"],
+            "date": "13/02/2023"
+        },
+        {
+            "name": "Linktwine",
+            "medal":true,
+            "link": "https://nekohino.itch.io/linktwine",
+            "image": "img/projets/linktwine.png",
+            "short": "Développement d'un jeu en solo, Casual games.",
+            "description": ["Réalisé en 2 jours","Test de petit jeu"],
+            "date": "13/02/2023"
+        },
+        {
+            "name": "CentiSnake",
+            "medal":false,
+            "link": "https://unimolix.itch.io/centisnake",
+            "image": "img/projets/centisnake.png",
+            "short": "Reprise du jeu Snake",
+            "description": ["Réalisé en 2 jours","Test de petit jeu"],
+            "date": "05/02/2023"
+        },
+        {
+            "name": "Proty",
+            "medal": false, 
+            "link": "https://ejeulin.itch.io/proty",
+            "image": "img/projets/proty.png" ,
+            "short":"Jeu de plateforme durant le club jeu de l'iut.",
+            "description":["genre: platformer","Équipe de 10 personnes"],
+            "date": "08/10/2022"
+        },
+        {
+            "name": "A normal gamer day",
+            "medal": true,
+            "link": "https://unimolix.itch.io/a-normal-gamer-day",
+            "image": "img/projets/zombie.png" ,
+            "short":"Jeu gagnant de la ScoreSpace Jam x Ultimate.",
+            "description":["Game Jam de 72h","Thème : Decay","équipe : 3 personnes"],
+            "date": "27/06/2022"
+        },
+        {
+            "name": "AngelBit",
+            "medal": false,
+            "link": "https://nekohino.itch.io/angelbit",
+            "image": "img/projets/angelBit.png" ,
+            "short":"Jeu réalisé durant la VGLab Jam d'At0mium.",
+            "description":["Game Jam de 48h","Thème : Arcade","genre : platformer"],
+            "date": "07/11/2021"
+        },
+        {
+            "name": "Mouth House",
+            "medal":false,
+            "link": "https://unimolix.itch.io/mouth-house",
+            "image": "img/projets/mouth_house.png" ,
+            "short":"Jeu pour Halloween.",
+            "description":["Genre : platformer/horreur"],
+            "date": "31/10/2021"
+        },
+        {
+            "name": "Snowster",
+            "medal":false,
+            "link": "https://unimolix.itch.io/snowster",
+            "image": "img/projets/snowster.png" ,
+            "short":"Très courte game jam pour plus de challenge.",
+            "description":["Game Jam de 4h","Thème : Invisible"],
+            "date":"09/10/2021"
+        },
+        {
+            "name": "AFlame",
+            "medal": true,
+            "link": "https://unimolix.itch.io/aflame",
+            "image": "img/projets/aflame.png" ,
+            "short":"Une bougie qui doit survivre en enflammant ses congénères.",
+            "description":["Game Jam de 3 jours","Thème : One Bullet"],
+            "date": "19/09/2021"
+        },
+        {
+            "name": "Disco Killer",
+            "medal":false,
+            "link": "https://unimolix.itch.io/disco-killer",
+            "image": "img/projets/disco_killer.png" ,
+            "short":"Jeu où l'on doit écraser des petits bonhommes.",
+            "description":["Game Jam de 1 semaine","Thème : Let's Party Game"],
+            "date":"25/07/2021"
+        },
+        {
+            "name": "Doll Chamber",
+            "medal": false,
+            "link": "https://nekohino.itch.io/doll-chamber",
+            "image": "img/projets/dollChamber.PNG" ,
+            "short":"Jeu réalisé pour un projet d'art plastique.",
+            "description":["genre: horreur","Fait seul","Thème: Nos peurs"],
+            "date":"09/03/2021"
+        },
+        {
+            "name": "Sea Bell",
+            "medal": false,
+            "link": "https://unimolix.itch.io/sea-bell",
+            "image": "img/projets/seaBell.png" ,
+            "short":"Premier gros jeu 3d créé.",
+            "description":["genre: puzzle","Équipe de 2 personnes - Unimolix"],
+            "date":"31/07/2020"
+        },
+        {
+            "name": "Travel Planet",
+            "medal": true,
+            "link": "https://unimolix.itch.io/travel-planet",
+            "image": "img/projets/travel_planet.png" ,
+            "short": "Premier jeu posté par Unimolix.",
+            "description":["Game Jam de 72h","Thème : Towards a new world"],
+            "date":"01/07/2020"
+        },
+        {
+            "name": "Unimolix",
+            "medal": true,
+            "link": "https://unimolix.itch.io/",
+            "image": "img/projets/logoUnimolix.png" ,
+            "short":"Groupe de création de jeux fondé.",
+            "description":["Ayant un intérêt commun dans l'envie de développer des jeux, Timothée et moi-même avons décidé de former un groupe afin de regrouper nos jeux."],
+            "date":"15/04/2020"
+        }
+    ],
+    "GenreWebsite":["HTML5","CSS","Javascript","PHP", "PHP","Symfony"],
+    "Website":[
+        {
+            "name": "Site Unimolix",
+            "medal":false,
+            "link": "https://unimolix.fr",
+            "image": "img/projets/logoUnimolix.png",
+            "short":"Design et développement du site dédié au groupe Unimolix.",
+            "description":["Utilisation de:"," - HTML/CSS"," - SQL"," - Javascript"],
+            "date": "04/2023"
+        },
+        {
+            "name": "Woodeo",
+            "medal":false,
+            "link": "",
+            "image": "img/projets/logo_woodeo.png",
+            "short":"Projet de visualisation de séries à partir d'une base de données.",
+            "description":["Utilisation de:"," - Symfony"," - SQL"," - Tailwind (framework css)","Équipe de 5 personnes"],
+            "date": "01/2023"
+        },
+        {
+            "name": "Mirai Games",
+            "medal":false,
+            "link": "retex/site_mirai_games.pdf",
+            "image": "img/projets/manetteblanc.png",
+            "short":"Projet de site web d'entreprise.",
+            "description":["Création d'une entreprise imaginaire et développer leur site web (static)","Équipe de 2 personnes"],
+            "date": "01/2022"
+        }
+    ]
+}
