@@ -1,6 +1,24 @@
 {
-    "GenreVideoGames":["Unity3D","C#","Krita","Blender"],
-    "VideoGames":[
+    "GenreUnimolix":["Game Designer","Artist"],
+    "Unimolix":[
+        {
+            "name": "Rubber Belly",
+            "medal":false,
+            "link": "https://unimolix.itch.io/rubber-belly",
+            "image": "img/projets/rubber_belly.png",
+            "short": "GMTK 2024 (29 000 participants).",
+            "description": ["GMTK Game Jam","Thème : Built To Scale"],
+            "date": "16/08/2024"
+        },
+        {
+            "name": "Help Bipboop",
+            "medal":false,
+            "link": "https://unimolix.itch.io/help-bipboop",
+            "image": "img/projets/helpbipboop.png",
+            "short": "GMTK 2023 (27 000 participants).",
+            "description": ["GMTK Game Jam","Thème : Roles Reversed"],
+            "date": "09/07/2023"
+        },
         {
             "name": "Âme Bleue",
             "medal":false,
@@ -8,24 +26,6 @@
             "image": "img/projets/ame_bleue.png",
             "short": "Première grosse Game Jam (7000 participants).",
             "description": ["Game Jam Lvl99","Thème : A Deep Breath"],
-            "date": "13/02/2023"
-        },
-        {
-            "name": "Fall Colors",
-            "medal":false,
-            "link": "https://nekohino.itch.io/fall-colors",
-            "image": "img/projets/fall_colors.png",
-            "short": "Développement d'un jeu en solo, Jeu de vélo.",
-            "description": ["Réalisé en 2 semaines","Test de petit jeu"],
-            "date": "13/02/2023"
-        },
-        {
-            "name": "Linktwine",
-            "medal":true,
-            "link": "https://nekohino.itch.io/linktwine",
-            "image": "img/projets/linktwine.png",
-            "short": "Développement d'un jeu en solo, Casual games.",
-            "description": ["Réalisé en 2 jours","Test de petit jeu"],
             "date": "13/02/2023"
         },
         {
@@ -38,15 +38,6 @@
             "date": "05/02/2023"
         },
         {
-            "name": "Proty",
-            "medal": false, 
-            "link": "https://ejeulin.itch.io/proty",
-            "image": "img/projets/proty.png" ,
-            "short":"Jeu de plateforme durant le club jeu de l'iut.",
-            "description":["genre: platformer","Équipe de 10 personnes"],
-            "date": "08/10/2022"
-        },
-        {
             "name": "A normal gamer day",
             "medal": true,
             "link": "https://unimolix.itch.io/a-normal-gamer-day",
@@ -54,15 +45,6 @@
             "short":"Jeu gagnant de la ScoreSpace Jam x Ultimate.",
             "description":["Game Jam de 72h","Thème : Decay","équipe : 3 personnes"],
             "date": "27/06/2022"
-        },
-        {
-            "name": "AngelBit",
-            "medal": false,
-            "link": "https://nekohino.itch.io/angelbit",
-            "image": "img/projets/angelBit.png" ,
-            "short":"Jeu réalisé durant la VGLab Jam d'At0mium.",
-            "description":["Game Jam de 48h","Thème : Arcade","genre : platformer"],
-            "date": "07/11/2021"
         },
         {
             "name": "Mouth House",
@@ -101,15 +83,6 @@
             "date":"25/07/2021"
         },
         {
-            "name": "Doll Chamber",
-            "medal": false,
-            "link": "https://nekohino.itch.io/doll-chamber",
-            "image": "img/projets/dollChamber.png" ,
-            "short":"Jeu réalisé pour un projet d'art plastique.",
-            "description":["genre: horreur","Fait seul","Thème: Nos peurs"],
-            "date":"09/03/2021"
-        },
-        {
             "name": "Sea Bell",
             "medal": false,
             "link": "https://unimolix.itch.io/sea-bell",
@@ -137,34 +110,85 @@
             "date":"15/04/2020"
         }
     ],
-    "GenreWebsite":["HTML5","CSS","Javascript","PHP", "PHP","Symfony"],
-    "Website":[
+    "GenreSoloGames":["Game Design","Artist","Developper"],
+    "SoloGames":[
         {
-            "name": "Site Unimolix",
+            "name": "CrackAll",
             "medal":false,
-            "link": "https://unimolix.fr",
-            "image": "img/projets/logoUnimolix.png",
-            "short":"Design et développement du site dédié au groupe Unimolix.",
-            "description":["Utilisation de:"," - HTML/CSS"," - SQL"," - Javascript"],
-            "date": "04/2023"
+            "link": "https://felixve.itch.io/crackall",
+            "image": "img/projets/crackall.png",
+            "short": "Revisite du casse brique, le but était d'ajouter du game feel dans le jeu.",
+            "description": ["Réalisé en 1 semaine"],
+            "date": "21/02/2024"
         },
         {
-            "name": "Woodeo",
+            "name": "Fall Colors",
             "medal":false,
-            "link": "",
-            "image": "img/projets/logo_woodeo.png",
-            "short":"Projet de visualisation de séries à partir d'une base de données.",
-            "description":["Utilisation de:"," - Symfony"," - SQL"," - Tailwind (framework css)","Équipe de 5 personnes"],
-            "date": "01/2023"
+            "link": "https://nekohino.itch.io/fall-colors",
+            "image": "img/projets/fall_colors.png",
+            "short": "Développement d'un jeu en solo, Jeu de vélo.",
+            "description": ["Réalisé en 2 semaines","Test de petit jeu"],
+            "date": "13/02/2023"
         },
         {
-            "name": "Mirai Games",
-            "medal":false,
-            "link": "retex/site_mirai_games.pdf",
-            "image": "img/projets/manetteblanc.png",
-            "short":"Projet de site web d'entreprise.",
-            "description":["Création d'une entreprise imaginaire et développer leur site web (static)","Équipe de 2 personnes"],
-            "date": "01/2022"
+            "name": "Linktwine",
+            "medal":true,
+            "link": "https://nekohino.itch.io/linktwine",
+            "image": "img/projets/linktwine.png",
+            "short": "Développement d'un jeu en solo, Casual games.",
+            "description": ["Réalisé en 2 jours","Test de petit jeu"],
+            "date": "13/02/2023"
+        }
+    ],
+    "GenreGameJam":["Game Design","Artist","~Developper"],
+    "GameJam":[
+        {
+            "name": "Splinter Self",
+            "medal": false,
+            "link": "https://felixve.itch.io/splinter-self",
+            "image": "img/projets/splinterself.png" ,
+            "short":"Ludum Dare 55",
+            "description":["Game Jam de 72h","Thème : Summoning","genre : puzzle / platformer"],
+            "date": "16/05/2024"
+        },
+        {
+            "name": "Ghost Sweep",
+            "medal": false,
+            "link": "https://cixidetroy.itch.io/ghost-sweep",
+            "image": "img/projets/ghost_sleep.png" ,
+            "short":"Jeu réalisé durant la Cozy Fall Jam 2023.",
+            "description":["Game Jam de 72h","Thème : Less is more","genre : third-person"],
+            "date": "08/10/2023"
+        },
+        {
+            "name": "AngelBit",
+            "medal": false,
+            "link": "https://nekohino.itch.io/angelbit",
+            "image": "img/projets/angelBit.png" ,
+            "short":"Jeu réalisé durant la VGLab Jam d'At0mium.",
+            "description":["Game Jam de 48h","Thème : Arcade","genre : platformer"],
+            "date": "07/11/2021"
+        }
+    ],
+    "GenreSchoolProject":["Game Design","Artist","Developper"],
+    "SchoolProject":[
+        {
+            "name": "Proty",
+            "medal": false, 
+            "link": "https://ejeulin.itch.io/proty",
+            "image": "img/projets/proty.png" ,
+            "short":"Jeu de plateforme durant le club jeu de l'iut.",
+            "description":["genre: platformer","Équipe de 10 personnes"],
+            "date": "08/10/2022"
+        },
+        {
+            "name": "Doll Chamber",
+            "medal": false,
+            "link": "https://nekohino.itch.io/doll-chamber",
+            "image": "img/projets/dollChamber.png" ,
+            "short":"Jeu réalisé pour un projet d'art plastique.",
+            "description":["genre: horreur","Fait seul","Thème: Nos peurs"],
+            "date":"09/03/2021"
         }
     ]
 }

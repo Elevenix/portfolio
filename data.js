@@ -1,16 +1,24 @@
-const jvBody = document.getElementById("jeux");
-const siteBody = document.getElementById("sites");
+const siteUnimolix = document.getElementById("unimolix");
+const siteSoloGames = document.getElementById("soloGames");
+const siteGameJam = document.getElementById("gameJam");
+const siteSchoolProject = document.getElementById("schoolProject");
 const jeuxJSON = new Request("dataGames.json");
 
 async function main(){
     const response = await fetch(jeuxJSON);
     const allGames = await response.json();
 
-    createGenre(allGames.GenreVideoGames, jvBody);
-    showGames(allGames.VideoGames, jvBody);
+    createGenre(allGames.GenreUnimolix, siteUnimolix);
+    showGames(allGames.Unimolix, siteUnimolix);
 
-    createGenre(allGames.GenreWebsite, siteBody);
-    showGames(allGames.Website, siteBody);
+    createGenre(allGames.GenreSoloGames, siteSoloGames);
+    showGames(allGames.SoloGames, siteSoloGames);
+
+    createGenre(allGames.GenreGameJam, siteGameJam);
+    showGames(allGames.GameJam, siteGameJam);
+
+    createGenre(allGames.GenreSchoolProject, siteSchoolProject);
+    showGames(allGames.SchoolProject, siteSchoolProject);
 }
 
 function showGames(games, body){
