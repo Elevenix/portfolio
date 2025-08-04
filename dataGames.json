@@ -2,8 +2,26 @@
     "GenreUnimolix":["Game Designer","Artist"],
     "Unimolix":[
         {
-            "name": "Rubber Belly",
+            "name": "Photon🗲0v0",
             "medal":false,
+            "link": "https://unimolix.itch.io/photon-0v0",
+            "image": "img/projets/photon.png",
+            "short": "GMTK 2025 (35 000 participants).",
+            "description": ["GMTK Game Jam","Thème : Loop"],
+            "date": "03/08/2025"
+        },
+        {
+            "name": "Mon Petit Papillon",
+            "medal":false,
+            "link": "https://unimolix.itch.io/mon-petit-papillon",
+            "image": "img/projets/papillon.png",
+            "short": "Cozy Spring Jam 2025",
+            "description": ["Game Jam","Thème : Butterfly Effect"],
+            "date": "11/05/2025"
+        },
+        {
+            "name": "Rubber Belly",
+            "medal":true,
             "link": "https://unimolix.itch.io/rubber-belly",
             "image": "img/projets/rubber_belly.png",
             "short": "GMTK 2024 (29 000 participants).",
@@ -12,7 +30,7 @@
         },
         {
             "name": "Help Bipboop",
-            "medal":false,
+            "medal":true,
             "link": "https://unimolix.itch.io/help-bipboop",
             "image": "img/projets/helpbipboop.png",
             "short": "GMTK 2023 (27 000 participants).",
@@ -93,7 +111,7 @@
         },
         {
             "name": "Travel Planet",
-            "medal": true,
+            "medal": false,
             "link": "https://unimolix.itch.io/travel-planet",
             "image": "img/projets/travel_planet.png" ,
             "short": "Premier jeu posté par Unimolix.",
@@ -123,7 +141,7 @@
         },
         {
             "name": "Fall Colors",
-            "medal":false,
+            "medal":true,
             "link": "https://nekohino.itch.io/fall-colors",
             "image": "img/projets/fall_colors.png",
             "short": "Développement d'un jeu en solo, Jeu de vélo.",
@@ -172,6 +190,33 @@
     ],
     "GenreSchoolProject":["Game Design","Artist","Developper"],
     "SchoolProject":[
+        {
+            "name": "Iridescent",
+            "medal": true, 
+            "link": "https://felixve.itch.io/iridescent",
+            "image": "img/projets/iridescent.png" ,
+            "short":"Projet fin d'année de 3 mois - cnam ENJMIN",
+            "description":["genre: Puzzle/Ambiance","Équipe de 7 personnes"],
+            "date": "25/06/2025"
+        },
+        {
+            "name": "Poulpe Fiction",
+            "medal": false, 
+            "link": "https://felixve.itch.io/poulpe-fiction",
+            "image": "img/projets/pouple.png" ,
+            "short":"Projet de Shoot'em Up de 1 semaine - cnam ENJMIN",
+            "description":["genre: shoot'em up","Équipe de 10 personnes"],
+            "date": "13/12/2024"
+        },
+        {
+            "name": "Sugar Lady",
+            "medal": false, 
+            "link": "https://felixve.itch.io/sugar-lady",
+            "image": "img/projets/sugar_lady.png" ,
+            "short":"Game Jam au cnam ENJMIN - ENJAM 2024",
+            "description":["genre: Action/FPS","Équipe de 4 personnes"],
+            "date": "31/10/2024"
+        },
         {
             "name": "Proty",
             "medal": false, 
