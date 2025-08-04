@@ -243,6 +243,14 @@ button:hover{
     display: none;
 }
 
+.itch_blue{
+    color: var(--blue-base);
+}
+
+.itch_blue:hover{
+    color: var(--blue-hover);
+}
+
 @media (max-width: 992px){
 
     body{
